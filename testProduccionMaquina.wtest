@@ -1,6 +1,10 @@
 import maquina.*
 
-describe "group of tests ..." {
+describe "test de maquina de produccion" {
+
+  method initialize() {
+    maquina.agregarProducciones([43,18,49,62,33,39])
+  }
 
   test "algunDiaSeProdujo 49" {
     assert.that(maquina.algunDiaSeProdujo(49))

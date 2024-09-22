@@ -1,5 +1,5 @@
 object maquina {
-  const produccion = [43,18,49,62,33,39]
+  const produccion = [ ]
 
   method agregarProduccion(unElemento){
     produccion.add(unElemento)
